@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+          background-color: lightblue;
+        }
+
+        
+        h1 {
+          color: white;
+          text-align: center;
+        }
+
+        
+        p {
+          font-family: verdana;
+          font-size: 20px;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+        padding: 5px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        </style>
+    <body>
+        <h1>LES CIGOGNES</h1>
+        <p1>Les cigognes blanches ont un long bec jaune et un plumage blanc et noir au bout des ailes. Les cigognes blanches sont des oiseaux migrateurs. Les cigognes volent en groupe.</p1>
+        <div class="row">
+            <div class="column">
+              <img src="photo cigogne 1.jpg" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="photo cigne 2.jpg" style="width:100%">
+            </div>
+          </div>
+    </body>
+</html>
